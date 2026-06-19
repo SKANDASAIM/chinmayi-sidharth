@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Chinmayi ♥ Siddharth</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&family=Cormorant+Garamond:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="invitation.css">
+</head>
+<body>
+<section class="hero">
+<div class="card">
+<div class="badge">Together with their families invite you to celebrate</div>
+<div class="hero-image">
+<img src="sidchi.png" alt="Couple">
+</div>
+<div class="names">Chinmayi M</div>
+<div class="heart">♥</div>
+<div class="names">Siddharth V. Hallera</div>
+<div class="quote">“The beginning of forever starts with your blessings.”</div>
+<div class="grid">
+<div class="panel">
+<h3>🎉 Reception</h3>
+<strong>08 July 2026</strong>
+<br>
+<br>6:00 PM onwards</div>
+<div class="panel">
+<h3>💍 Muhurtham</h3>
+<strong>09 July 2026</strong>
+<br>
+<br>8:00 AM – 8:45 AM</div>
+</div>
+<h2 style="text-align:center;color:#7a1f3d">Countdown</h2>
+<div class="count">
+<div class="box">
+<b id="d">0</b>Days</div>
+<div class="box">
+<b id="h">0</b>Hours</div>
+<div class="box">
+<b id="m">0</b>Minutes</div>
+<div class="box">
+<b id="s">0</b>Seconds</div>
+</div>
+<div class="actions">
+<a class="btn" target="_blank" href="https://maps.app.goo.gl/cbDJm4vkZvuSC8mQA?g_st=aw">📍 View Venue</a>
+<a class="btn" target="_blank" href="https://calendar.google.com">📅 Add to Calendar</a>
+</div>
+<section class="wishes-section">
+<div class="wish-header">
+<span class="wish-icon">💌</span>
+<h2>Leave Your Wishes</h2>
+<p>Your blessings and kind words will always remain a cherished part of our beautiful journey together.</p>
+</div>
+<form
+    class="wish-form"
+    action="https://formspree.io/f/mjgdnwek"
+    method="POST"
+>
+
+    <div class="input-group">
+        <input
+            type="text"
+            name="Guest Name"
+            placeholder="✨ Your Name"
+            required
+        >
+    </div>
+
+    <div class="input-group">
+        <input
+            type="email"
+            name="Guest Email"
+            placeholder="📧 Your Email (Optional)"
+        >
+    </div>
+
+    <div class="input-group">
+        <textarea
+            name="Wedding Wishes"
+            rows="6"
+            placeholder="Write your heartfelt wishes for Chinmayi & Siddharth ❤️"
+            required
+        ></textarea>
+    </div>
+
+    <!-- Optional: Customize the email subject -->
+    <input
+        type="hidden"
+        name="_subject"
+        value="💌 New Wedding Wishes for Chinmayi & Siddharth"
+    >
+
+    <button type="submit" class="wish-btn">
+        ❤️ Send Blessings
+    </button>
+
+</form>
+</section>
+<div class="footer">With love & gratitude<br>
+<br>
+<strong>Chinmayi ♥ Siddharth</strong>
+<br>
+<br>Your presence will make our celebration even more memorable.</div>
+</div>
+</section>
+<script>const wedding=new Date("2026-07-08T18:00:00").getTime();setInterval(()=>{const diff=Math.max(0,wedding-Date.now());d.textContent=Math.floor(diff/86400000);h.textContent=Math.floor((diff%86400000)/3600000);m.textContent=Math.floor((diff%3600000)/60000);s.textContent=Math.floor((diff%60000)/1000);},1000);</script>
+</body>
+</html>
